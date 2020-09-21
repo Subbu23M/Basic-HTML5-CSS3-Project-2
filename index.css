@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+ul{
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    /* On X-axis */
+    width: 100%;
+
+    /* On Y-axis */
+    height: 50px;
+    line-height: 50px;
+
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+ul li {
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 300px;
+}
+
+ul li a{
+    /* Treats the entire block as link */
+    display: block;
+    color: lightgreen;
+    /* CSS3 Animations */
+    transition: transform 2s ease-in-out;
+}
+
+ul li a:hover{
+    transform: rotate(360deg);
+    color: lightpink;
+    border: 1px solid crimson;
+    /* border-radius: 2rem; */
+}
+
+footer i{
+    font-size: 2rem;
+    color: lightcoral;
+}
